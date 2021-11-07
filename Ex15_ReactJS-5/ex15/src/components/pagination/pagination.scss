@@ -1,0 +1,28 @@
+.pagination {
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+
+    button {
+        color: var(--text-color);
+        border: 0.5px solid #000;
+        width: max-content;
+        padding: 0 8px;
+        height: 30px;
+        font-size: 2rem;
+        margin-right: 8px;
+        background-color: #e6e6e6;
+
+        &:hover {
+            color: #fff;
+            cursor: pointer;
+            background-color: var(--primary-color);
+        }
+
+        &:disabled {
+            cursor: no-drop;
+            color: var(--text-color);
+            background-color: #595959;
+        }
+    }
+}

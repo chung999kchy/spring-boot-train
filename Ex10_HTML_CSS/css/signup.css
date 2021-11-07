@@ -1,0 +1,106 @@
+/* 2.main */
+.banner {
+  background-image: url(../img/banner.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 214px;
+}
+
+.banner h2 {
+  line-height: 32px;
+  margin-bottom: 4px;
+  font-size: 2.6rem;
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.banner .breadcrumb {
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 0;
+}
+
+.banner .breadcrumb a {
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.banner .breadcrumb-home {
+  color: var(--white-color);
+}
+
+.banner .breadcrumb-home::after {
+  content: "/";
+  margin: 0 6px;
+}
+
+.banner .breadcrumb-signup {
+  color: var(--primary-color);
+}
+
+.form {
+  position: relative;
+  display: block;
+}
+
+.form h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 36px;
+}
+
+.form h3::after {
+  content: "";
+  margin-top: 16px;
+  width: 44px;
+  display: block;
+  border-bottom: 1px solid var(--black-color);
+  margin-bottom: 24px;
+}
+
+.form p {
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+.form .form-group {
+  display: inline-block;
+  width: calc(50% - 16px);
+}
+
+.form .form-group .form-label {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  margin: 12px 0 8px 0;
+}
+
+.form .form-group .form-control {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  border: none;
+  outline: none;
+  background-color: #f4f4f4;
+  height: 40px;
+}
+
+.form .form-group:nth-child(even) {
+  float: right;
+}
+
+.form .form-submit {
+  width: 136px;
+  height: 44px;
+  background-color: #353535;
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  margin: 24px 0 80px 0;
+}
+
+.form .form-submit:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=signup.css.map */

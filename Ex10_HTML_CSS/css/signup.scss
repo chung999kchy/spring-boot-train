@@ -1,0 +1,103 @@
+/* 2.main */
+
+.banner {
+    background-image: url(../img/banner.png);
+    display: flex;
+    align-items: center;
+    height: 214px;
+
+
+    h2 {
+        line-height: 32px;
+        margin-bottom: 4px;
+        font-size: 2.6rem;
+        color: var(--white-color);
+        font-weight: bold;
+    }
+
+    .breadcrumb {
+        background-color: rgba(0, 0, 0, 0);
+        padding-left: 0;
+
+        a {
+            line-height: 18px;
+            text-decoration: none;
+        }
+
+        &-home {
+            color: var(--white-color);
+
+            &::after {
+                content: "/";
+                margin: 0 6px;
+            }
+        }
+
+        &-signup {
+            color: var(--primary-color);
+        }
+    }
+}
+
+.form {
+    position: relative;
+    display: block;
+
+    h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-top: 36px;
+
+        &::after {
+            content: "";
+            margin-top: 16px;
+            width: 44px;
+            display: block;
+            border-bottom: 1px solid var(--black-color);
+            margin-bottom: 24px;
+        }
+    }
+
+    p {
+        color: var(--text-color);
+        margin-bottom: 8px;
+    }
+
+    .form-group {
+        display: inline-block;
+        width: calc(50% - 16px);
+
+        .form-label {
+            font-size: 1.4rem;
+            color: var(--text-color);
+            margin: 12px 0 8px 0;
+        }
+
+        .form-control {
+            font-size: 1.4rem;
+            color: var(--text-color);
+            border: none;
+            outline: none;
+            background-color: #f4f4f4;
+            height: 40px;
+        }
+
+        &:nth-child(even) {
+            float: right;
+        }
+    }
+
+    .form-submit {
+        width: 136px;
+        height: 44px;
+        background-color: #353535;
+        color: var(--white-color);
+        border: none;
+        outline: none;
+        margin: 24px 0 80px 0;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+/* 3. Footer */
+.footer-content {
+  background-color: #2a2a2a;
+  padding: 40px 0 48px 0;
+  line-height: 24px;
+}
+
+.footer-content h2 {
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.footer-content li {
+  padding: 16px 0;
+  position: relative;
+}
+
+.footer-content li a {
+  color: #989898;
+  text-decoration: none;
+}
+
+.footer-content li a i {
+  color: var(--primary-color);
+  display: inline-block;
+}
+
+.footer-content li a span {
+  margin-left: 8px;
+  display: inline-block;
+}
+
+.footer-content li a::after {
+  content: "";
+  width: 165px;
+  border-bottom: 1px solid #363636;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+}
+
+.footer-content li:hover a {
+  color: var(--primary-color);
+}
+
+.footer-content .contact li a i {
+  position: absolute;
+  left: 0;
+  top: 22px;
+  display: inline-block;
+}
+
+.footer-content .contact li a span {
+  display: block;
+  margin-left: 22px;
+}
+
+.footer-content .contact li a::after {
+  display: none;
+}
+
+.footer-copyright {
+  background-color: #212121;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+}
+
+.footer-copyright .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-copyright__name {
+  color: #5e5e5e;
+}
+
+.footer-copyright__name span {
+  color: #989898;
+}
+
+.footer-copyright__logo img {
+  padding-top: 18px;
+  margin-left: 0;
+  position: absolute;
+  left: calc(75% - 28px);
+}
+/*# sourceMappingURL=footer.css.map */
